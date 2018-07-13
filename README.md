@@ -92,24 +92,36 @@ see demo
     <div class="simple-swiper-silde"><span>page 2</span></div>
     <div class="simple-swiper-silde"><span>page 3</span></div>
 </simple-swiper>
+```
+
+```
 <div class="title2">vertical</div>
 <simple-swiper direction="vertical" :paginationVisible="false">
     <div class="simple-swiper-silde blue"><span>page 1</span></div>
     <div class="simple-swiper-silde red "><span>page 2</span></div>
     <div class="simple-swiper-silde yellow"><span>page 3</span></div>
 </simple-swiper>
+```
+
+```
 <div class="title2">horizontal loop</div>
  <simple-swiper direction="horizontal" :paginationVisible="true" :loop="true">
     <div class="simple-swiper-silde blue"><span>page 1</span></div>
     <div class="simple-swiper-silde red "><span>page 2</span></div>
     <div class="simple-swiper-silde yellow"><span>page 3</span></div>
 </simple-swiper>
+```
+
+```
 <div class="title2">horizontal autoplay</div>
 <simple-swiper direction="horizontal" :autoPlay="2000" >
     <div class="simple-swiper-silde blue"><span>page 1</span></div>
     <div class="simple-swiper-silde red "><span>page 2</span></div>
     <div class="simple-swiper-silde yellow"><span>page 3</span></div>
 </simple-swiper>
+```
+
+```
 <div class="title2">asy data</div>
  <simple-swiper direction="vertical" :autoPlay="3000" ref="asyDemo">
     <div class="simple-swiper-silde" v-for="item in asyItems" :key="item.id">page{{item.name}}</div>

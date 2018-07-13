@@ -69,15 +69,24 @@ see demo
 	</tr>
 	<tr>
 		<td>slideChangeStart</td><td>start change slide callback</td><td>pageNumber,el</td>
+	</tr>
+	<tr>
 		<td>slideChangeEnd</td><td>change slide end callback</td><td>pageNumber,el</td>
+	</tr>
+	<tr>
 		<td>slideRevertStart</td><td>not change slide start callback</td><td>pageNumber,el</td>
+	</tr>
+	<tr>
 		<td>slideRevertEnd</td><td>not change slide end callback</td><td>pageNumber,el</td>
+	</tr>
+	<tr>
 		<td>slideMove</td><td>slide move callback</td><td>offset,el</td>
 	</tr>
 </table>
 
 
 ##API demos
+```
 <simple-swiper direction="horizontal" :paginationVisible="true">
 	<div class="simple-swiper-silde"><span>page 1</span></div>
     <div class="simple-swiper-silde"><span>page 2</span></div>
@@ -112,7 +121,7 @@ see demo
             this.$refs.asyDemo.updateSlidesBindEvent();
        },300)
     }
-
+```
 
 
 ##Thanks for your attention  and  if you have problems, you can give me issues ~

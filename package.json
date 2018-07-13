@@ -1,0 +1,36 @@
+{
+  "name": "vue-simple-swiper",
+  "version": "1.0.0",
+  "description": "",
+  "publicPath": "",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --hide-modules --progress ",
+    "dev": "webpack-dev-server -d --open --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.2.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.2",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

@@ -332,7 +332,6 @@
 	        _createAutoPlay(){
 	            clearInterval(this.timer);
 	            this.timer = setInterval(()=>{
-	            	console.log(this.stopAutoPlay);
 	                if(!this.stopAutoPlay){//如果停止播放，就不执行next
 	                    this.next();
 	                }

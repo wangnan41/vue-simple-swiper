@@ -1,13 +1,13 @@
-<h5>vue-simple-swiper v1.0</h5>
+<h1>vue-simple-swiper v1.0</h1>
 a simple vue swiper
 
 
-<h5>step1:npm install  step2:npm run dev </h5>
+<h3>step1:npm install  step2:npm run dev </h3>
 
 see demo
 
 
-<h5>API params</h5>
+<h3>API params</h3>
 
 <table>
 	<tr>
@@ -40,7 +40,7 @@ see demo
 </table>
 
 
-<h5>API methods</h5>
+<h3>API methods</h3>
 
 <table>
 	<tr>
@@ -61,7 +61,7 @@ see demo
 </table>
 
 
-<h5>API events</h5>
+<h3>API events</h3>
 
 <table>
 	<tr>
@@ -85,7 +85,7 @@ see demo
 </table>
 
 
-<h5>API demos</h5>
+<h3>API demos</h3>
 
 ```
 <simple-swiper direction="horizontal" :paginationVisible="true">
@@ -137,4 +137,4 @@ see demo
 ```
 
 
-<h5>Thanks for your attention  and  if you have problems, you can give me issues ~</h5>
+<h3>Thanks for your attention  and  if you have problems, you can give me issues ~</h3>
